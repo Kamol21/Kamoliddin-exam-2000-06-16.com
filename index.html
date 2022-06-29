@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exam-pixer</title>
-    <!-- <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css"> -->
-    <link rel="stylesheet" href="css/minifier.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/minifier.css"> -->
 </head>
 
 <body>
     <header class="top">
         <div class="container">
             <div class="header-intro">
-                <a href="index.html">
+                <a class="big-logo" href="index.html">
                     <img src="./images/logo.svg" width="58" height="20" alt="Pixer">
                 </a>
                 <ul class="header-ul">
@@ -251,14 +251,14 @@
                                 <input class="s4-li-input" type="tel" id="user-tel" name="user-tel" placeholder="Telefon raqamingiz" aria-label="Telefon raqamingiz" minlength="13" maxlength="17" required>
                             </li>
                             <li>
-                                <input class="s4-li-input" type="text" list="list" name="user-service" placeholder="Xizmat turi" required>
-                                <datalist id="list">
+                                <select id="list" class="s4-li-select">
+                                    <option value="disapled">Xizmat turini tanlang</option>
                                     <option value="SMM">SMM</option>
                                     <option value="Websayt">Websayt</option>
                                     <option value="Telegram bot">Telegram bot</option>
                                     <option value="CRM">CRM</option>
                                     <option value="Grafik dizayn">Grafik dizayn</option>
-                                </datalist>
+                                </select>
                             </li>
                             <li>
                                 <button class="s4-li-form-button">
