@@ -21,6 +21,8 @@
 }
 body{
     margin: 0px;
+    font-family: "Open Sans","Arial",sans-serif;
+    font-weight: 400;
 }
 .visually-hidden {
     clip: rect(0 0 0 0); 
@@ -60,9 +62,6 @@ body{
     list-style: none;
 }
 .header-li-ahref{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #000000;
@@ -99,8 +98,6 @@ body{
     border-radius: 5px
 }
 .header-button-tel{
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 24px;
@@ -123,17 +120,12 @@ body{
     width: 460px;
 }
 .s1-h1 {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 130%;
     color: #000000;
 }
 .sections-p {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #000000;
@@ -153,8 +145,6 @@ body{
     border-radius: 5px;
 }
 .s1-button-ahref {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -176,8 +166,6 @@ body{
     text-align: center;
 }
 .s2-s3-s4-h2 {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 130%;
@@ -232,8 +220,6 @@ body{
     text-decoration: none;
 }
 .s2-s3-foot-li-h2 {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 130%;
@@ -279,8 +265,6 @@ body{
     border-radius: 5px;
 }
 .s2-li-button-word {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -289,9 +273,6 @@ body{
 }
 .s2-li-ahref {
     margin-left: 50px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -397,23 +378,11 @@ body{
     border-radius: 5px;
     color: gray;
 }
-/* .s4-li-select::after {
-    display: block;
-    content: "";
-    width: 7px;
-    height: 7px;
-    background-image: url("../images/icon-down.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-} */
 .s4-li-form-button {
     padding: 8px 16px;
     background-color: #00BAFC;
     border: 0px;
     border-radius: 5px;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -440,8 +409,6 @@ body{
 }
 .foot-left{
     margin-right: 15px;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 130%;
@@ -452,9 +419,6 @@ body{
     list-style: none;
 }
 .foot-li-p-ahrefs {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
@@ -469,9 +433,6 @@ body{
 }
 .foot-for-margin{
     margin-top: 8px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
@@ -521,9 +482,6 @@ body{
 
 
 .header-li-ahref-services {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #000000;
@@ -646,4 +604,22 @@ body{
     line-height: 24px;
     text-align: center;
     color: #00BAFC;
+}
+.s4-p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.s4-h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer-strong {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
 }
